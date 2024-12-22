@@ -1,0 +1,46 @@
+dataset:
+  base_path: "dataset/raw"
+  train_split: 0.7
+  val_split: 0.2
+  save_path: "dataset/processed"
+  classes:
+    - "collie"
+    - "dolphin"
+    - "elephant"
+    - "fox"
+    - "moose"
+    - "rabbit"
+    - "sheep"
+    - "squirrel"
+    - "giant+panda"
+    - "polar+bear"
+
+model:
+  input_sizes: [224, 128]
+  activations: ["relu", "prelu", "elu"]
+  learning_rates: [0.01, 0.001, 0.0001]
+  batch_size: 64
+  epochs: 100
+  dropout_rate: 0.2
+  weight_decay: 0.0001
+  data_augmentation:
+    enabled: [true, false]
+    params:
+      rotation_range: 15
+      width_shift_range: 0.12
+      height_shift_range: 0.12
+      horizontal_flip: true
+      zoom_range: 0.1
+      brightness_range: [0.9, 1.1]
+      shear_range: 10
+      channel_shift_range: 0.1
+
+wandb:
+  project: "bootcamp-cnn-animal-classification"
+  entity: "orhandijvar"
+  api_key: "05fc16e680bce70512940f76d8677a6a9795ce2c"
+
+paths:
+  results: "results"
+  checkpoints: "results/checkpoints"
+  logs: "results/logs"
