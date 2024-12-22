@@ -4,7 +4,7 @@ Bu proje, CNN kullanarak görüntü sınıflandırma yapan ve farklı ışık ko
 
 ## Links
 
-- [Kaggle]([https://www.kaggle.com](https://www.kaggle.com/work/collections/15165371))
+- [Kaggle](https://www.kaggle.com/work/collections/15165371)
 - [WandB](https://wandb.ai/orhandijvar/bootcamp-cnn-animal-classification?nw=nwuserorhandijvar)
 - [Cursor](https://www.cursor.com/)
 
