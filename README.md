@@ -87,10 +87,12 @@ Aşağıdaki parametreler için Grid Search uygulanmıştır:
 
 Toplam Deney Sayısı: 2 (giriş boyutu) × 3 (aktivasyon) × 3 (öğrenme oranı) × 2 (veri artırma) = 36 farklı kombinasyon
 
-Sabit Tutulan Parametreler:
+**Sabit Tutulan Parametreler:**
 
 - Batch Size: 64
 - Epoch Sayısı: 100
+- Optimizer: Adam
+- Kayıp Fonksiyonu: Sparse Categorical Crossentropy
 - Dropout Oranı: 0.2
 - Weight Decay: 0.0001
 
@@ -106,6 +108,17 @@ Sabit Tutulan Parametreler:
 ## Gereksinimler
 
 Projeyi çalıştırmak için aşağıdaki kütüphanelerin yüklü olması gerekmektedir:
+
+```
+tensorflow==2.15.0
+numpy>=1.19.2
+opencv-python>=4.5.1
+PyYAML>=5.4.1
+scikit-learn>=0.24.2
+wandb>=0.12.0
+matplotlib>=3.3.4
+tqdm>=4.61.0 
+```
 
 ```bash
 pip install -r requirements.txt
