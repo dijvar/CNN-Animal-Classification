@@ -2,17 +2,24 @@
 
 Bu proje, CNN kullanarak görüntü sınıflandırma yapan ve farklı ışık koşullarında modelin performansını test eden bir uygulamadır. Aygaz Görüntü İşleme Bootcamp projesi kapsamında geliştirilmiştir.
 
-## Veri Seti ve Analiz Özellikleri
+## Links
+
+- [Kaggle]([https://www.kaggle.com](https://www.kaggle.com/work/collections/15165371))
+- [WandB](https://wandb.ai/orhandijvar/bootcamp-cnn-animal-classification?nw=nwuserorhandijvar)
+- [Cursor](https://www.cursor.com/)
+
+## Veri Seti ve Özellikleri
 
 Proje, 10 farklı hayvan sınıfını (collie, dolphin, elephant, fox, moose, rabbit, sheep, squirrel, giant panda, polar bear) sınıflandırmak için tasarlanmıştır. Her sınıftan 650 görüntü kullanılarak dengeli bir veri seti oluşturulmuştur.
 
-### Kullanılan Temel Kütüphaneler ve Analizler
+### Kullanılan Temel Kütüphaneler ve Araçlar
 
 - **TensorFlow/Keras**: CNN modelinin oluşturulması ve eğitimi
 - **OpenCV**: Görüntü işleme ve manipülasyon
 - **NumPy**: Matris işlemleri ve veri manipülasyonu
 - **Scikit-learn**: Veri seti bölme ve model değerlendirme
 - **Wandb**: Deney takibi ve hiperparametre optimizasyonu
+- **[Cursor]**(https://www.cursor.com/): Yapay Zeka ile kodlama için IDE
 
 ### Teknik Detaylar
 
@@ -35,11 +42,6 @@ Proje, 10 farklı hayvan sınıfını (collie, dolphin, elephant, fox, moose, ra
     - Aktivasyon fonksiyonu
     - Öğrenme oranı
     - Veri artırma stratejileri
-
-## Links
-
-- [Kaggle](https://www.kaggle.com)
-- [WandB](https://wandb.ai/orhandijvar/bootcamp-cnn-animal-classification?nw=nwuserorhandijvar)
 
 ## Özellikler
 
