@@ -19,7 +19,7 @@ Proje, 10 farklı hayvan sınıfını (collie, dolphin, elephant, fox, moose, ra
 - **NumPy**: Matris işlemleri ve veri manipülasyonu
 - **Scikit-learn**: Veri seti bölme ve model değerlendirme
 - **Wandb**: Deney takibi ve hiperparametre optimizasyonu
-- **[Cursor]**(https://www.cursor.com/): Yapay Zeka ile kodlama için IDE
+- **[Cursor](https://www.cursor.com/)**: Yapay Zeka ile kodlama için IDE
 
 ### Teknik Detaylar
 
