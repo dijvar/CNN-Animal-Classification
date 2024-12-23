@@ -2,6 +2,8 @@
 
 Bu proje, CNN kullanarak görüntü sınıflandırma yapan ve farklı ışık koşullarında modelin performansını test eden bir uygulamadır. Aygaz Görüntü İşleme Bootcamp projesi kapsamında geliştirilmiştir.
 
+***NOT***: Projeye ait notebook Colab üzerinde çalıştırılmıştır. Notebook Kaggle'a yüklenmiştir ancak çalıştırılmamıştır. 
+
 ## Links
 
 - [Kaggle](https://www.kaggle.com/code/orhandjvarekinci/cnn-animal-classification-grid-search)
