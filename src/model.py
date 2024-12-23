@@ -173,11 +173,10 @@ class CNNModel:
                 zoom_range=params.zoom_range,
                 brightness_range=params.brightness_range,
                 shear_range=params.shear_range,
-                channel_shift_range=params.channel_shift_range,
-                rescale=1./255
+                channel_shift_range=params.channel_shift_range
             )
         else:
-            return ImageDataGenerator(rescale=1./255)
+            return None
     
     def _dataset_to_numpy(self, dataset: tf.data.Dataset) -> Tuple[np.ndarray, np.ndarray]:
         """TensorFlow dataset'i numpy array'e dönüştür"""
