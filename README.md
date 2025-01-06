@@ -178,3 +178,4 @@ Eğitim sonuçları ve model performansı [Wandb](https://wandb.ai/orhandijvar/b
 - Eğitim ve validasyon kayıpları/doğrulukları
 - Test sonuçları (orijinal, manipüle edilmiş ve renk sabitliği uygulanmış görüntüler için)
 - Model parametreleri ve hiperparametreler
+ 
